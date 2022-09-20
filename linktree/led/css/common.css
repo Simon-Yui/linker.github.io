@@ -1,0 +1,6 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-primary);    
+    background: rgb(64,24,1);
+    background: radial-gradient(circle, rgba(64,24,1,0.9363095580028886) 0%, rgba(166,79,3,1) 100%);
+}

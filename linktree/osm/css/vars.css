@@ -1,0 +1,9 @@
+:root{
+    --color-primary: #0d0d0d ;
+    --color-primary-light: #730606  ;
+    --color-secondary: #A60505 ;
+    --color-secondary-light: #F20707 ;
+    --color-tertiary: #D90B1C;
+   
+    --default-font: 'Montserrat', sans-serif;
+   }

@@ -1,0 +1,75 @@
+@import "vars.css";
+@import "common.css";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+}
+
+
+.avatar {
+    width: 80px;
+    border-radius: 50%;
+    border: 2.5px solid var(--color-primary-light); 
+    box-shadow: 0 0 20px var(--color-primary);
+}
+h1 {
+    font-family: var(--default-font);
+    font-weight: 100px;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+h2 {
+    font-size: 16px;
+}
+.profile {
+    text-align: center;
+    margin-top: 20px;
+}
+.social {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.social img {
+    width: 33px;
+}
+
+.links-list  {
+    list-style: none;
+
+}
+.links-list li {
+    margin: 10px 20px;
+
+}
+.links-list li a {
+    display: block;
+    background: var(--color-secondary);
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--color-primary);
+    font-weight: bold;
+    box-shadow: 0 0 5px var(--color-primary-light);
+    transition-duration: 500ms;
+}
+
+.links-list li a:hover {
+    background: var(--color-secondary-light);
+    box-shadow: 0 0 5px var(--color-secondary);
+
+}
+
+.links-list li a span {
+    color: var(--color-primary);
+    font-weight: 400;
+    display: block;
+}
