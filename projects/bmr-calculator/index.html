@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <script src="https://cdn.tailwindcss.com"></script>
+   
+    <title>Calculadora de TMB</title>
+</head>
+<body class="bg-blue-500 text-base ">
+    <div class="bg-gray-100 w-96 h-[640px] my-28 mx-auto rounded-3xl shadow-lg ">
+        <div class="bg-gray-700 rounded-t-3xl my-2">
+            <h1 class="text-white text-xl uppercase text-center p-5">
+                Calcule sua TMB
+            </h1>
+        </div>
+        <div class="px-5">
+            <form id="form">
+                <input 
+                    type="text" 
+                    name="name" 
+                    class="bg-white w-full h-auto px-2 py-4 mx-auto my-2 rounded-lg  text-center
+                    focus:border-4 border-blue-400 outline-none " 
+                    id="name" 
+                    placeholder="Digite seu primeiro nome"
+                    required
+                >
+                <select 
+                required
+                    id="gender" 
+                    class="bg-white w-full h-auto px-2 py-4 mx-auto my-2 rounded-lg  text-center
+                    focus:border-4 border-blue-400 outline-none "
+                    
+                >
+                        <option disabled selected value="0"> -- Selecione o sexo</option>
+                        <option value="male">Masculino</option>
+                        <option value="female">Feminino</option>
+                    </select>
+                <input 
+                    type="text" 
+                    name="weight" 
+                    class="bg-white w-full h-auto px-2 py-4 mx-auto my-2 rounded-lg  text-center
+                    focus:border-4 border-blue-400 outline-none " 
+                    id="weight" 
+                    placeholder="Digite seu peso em kg (65.5)"
+                    required
+                >
+                <input 
+                    type="number" 
+                    name="height" 
+                    class="bg-white w-full h-auto px-2 py-4 mx-auto my-2 rounded-lg  text-center
+                    focus:border-4 border-blue-400 outline-none "
+                    id="height" 
+                    placeholder="Digite sua altura em cm" 
+                    required
+                >
+                <input 
+                    type="number" 
+                    name="age" 
+                    class="bg-white w-full h-auto px-2 py-4 mx-auto my-2 rounded-lg  text-center
+                    focus:border-4 border-blue-400 outline-none "
+                    id="age" 
+                    placeholder="Digite sua idade em anos" 
+                    required
+                >
+                <button
+                    type="submit"
+                    class="block uppercase text-bold text-white bg-blue-500 my-2 mx-auto w-52 h-12 rounded-lg hover:bg-blue-400" >
+                Calcular
+            </button>
+            </form>
+        </div>
+        <div class="text-xl text-center my-2 px-5" id="divResult" >
+            <h2 id="TMB">00.00</h2>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
