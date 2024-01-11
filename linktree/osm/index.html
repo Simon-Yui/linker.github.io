@@ -1,85 +1,89 @@
 <!DOCTYPE html>
-<html lang="pt">
-<head>
+<html lang="en">
+  <head>
+    <title>osimnao - links</title>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
-    <title>LinktreEMO</title>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/style.css">
-
-   
-    <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-96NFJNVSCM"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-96NFJNVSCM');
-        </script>
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+          VANTA.BIRDS({
+            el: "#vanta",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: true,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            backgroundAlpha: 0.0,
+            color2: 0x0,
+            wingSpan: 40.00,
+            separation: 100.0,
+            alignment: 77.0,
+            cohesion: 5.00,
+            quantity: 1.00,
+          })
 
-</head>
-<body>
-    <div class="profile">
-        <img src="img/profile-pic.png" alt="Lucas" class="avatar">
+        setTimeout(() => { 
+          const main = document.querySelector('main')
+          main.style.opacity = 1 
+          main.style.filter = 'blur(0px)'
+          }, 1000)
+       })
 
-        <h1>O Simon</h1>
-        <h2>Faz parte, faz arte!</h2>
+    </script>
 
-    </div>
+  </head>
+  <body>
+    <div id="vanta"></div>
+   <main>
+    <header>
+      <img src="img/profile-pic.png" alt="Simon">
+      <h1>@osimnao</h1>
+    </header>
 
-    <ul class="social">
-        <li>
-            <a href="https://www.youtube.com/channel/UCe6GexgvsXi3U17bXgl5GeA"> <img src="img/youtube.png" alt="Youtube"></a>
-        </li>
-        <li>
-            <a href="https://www.tiktok.com/@osimnao"> <img src="img/tiktok.png" alt="Instagram"></a>
-        </li>
-        <li>
-            <a href="https://www.instagram.com/osimnao/"> <img src="img/insta.svg" alt="Instagram"></a>
-        </li>
-        <li>
-            <a href="https://www.facebook.com/osimnao"> <img src="img/facebook.png" alt="Instagram"></a>
-        </li>
-        <li>
-            <a href="https://twitter.com/osimnao"> <img src="img/twitter.png" alt="Whatsapp"></a>
-        </li>
+    <ul>
+      <li>
+        <a href="https://chk.eduzz.com/1922305">
+          Ebook 41: Fragmentos Poéticos
+        </a>
+      </li>
+      <li>
+        <a href="https://osimnao.lojavirtualnuvem.com.br/">
+          Lojinha osimnao
+        </a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCe6GexgvsXi3U17bXgl5GeA">
+        <img src="img/youtube.png" alt="Youtube" width="20">
+          Youtube
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/osimnao/">
+        <img src="img/insta.svg" alt="Instagram" width="20">
+          Instagram
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/osimnao">
+        <img src="img/twitter.png" alt="Twitter" width="20">
+         Twitter
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/osimnao">
+        <img src="img/facebook.png" alt="Facebook" width="20">
+         Facebook
+        </a>
+      </li>
     </ul>
-
-    <ul class="links-list">
-
-        <li>
-            <a href="https://chk.eduzz.com/1922305">
-               Ebook 41: Fragmentos Poéticos
-               <span>Cada poesia é um convite à reflexão e à busca por significado.</span> 
-            </a>
-        </li>
-        <li>
-            <a href="https://osimnao.lojavirtualnuvem.com.br/produtos/kit-frag-livro-41-autografado-brindes-exclusivos/">
-               KIT FRAG (Livro Autografado + Brindes)
-               <span>Não perca a oportunidade de ter em suas mãos o Kit FRAG (Fragmentos Repletos de Amor e Gritos) e vivenciar a intensidade e a beleza da poesia.</span> 
-            </a>
-        </li>
-        <li>
-            <a href="https://osimnao.lojavirtualnuvem.com.br/produtos/kit-sad-livro-autografado-caneca-brindes/">
-               KIT SAD (Livro Autografado + Caneca Exclusiva + Brindes)
-               <span>Não perca a oportunidade de ter em suas mãos o Kit SAD (Sorrisos Aparentemente Desbotados) e vivenciar a intensidade e a beleza da poesia.</span> 
-            </a>
-        </li>
-        <li>
-            <a href="https://osimnao.lojavirtualnuvem.com.br/produtos/kit-nats-nunca-apenas-tristeza/">
-               KIT NATS (Livro Autografado + Moletom e Camisa + Brindes)
-               <span>Não perca a oportunidade de ter em suas mãos o Kit NATS (Nunca Apenas Tristeza) e vivenciar a intensidade e a beleza da poesia.</span> 
-            </a>
-        </li>
-    </ul>
-</body>
+   </main>
+  </body>
 </html>
