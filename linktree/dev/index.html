@@ -5,58 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <title>Linktree - Lucas Simon</title>
+        
+        <link rel="stylesheet" href="./css/style.css">
+        
+        
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.dots.min.js"></script>
+      <script>
+          window.addEventListener('DOMContentLoaded', () => {
+            VANTA.DOTS({
+              el: "#vanta",
+              mouseControls: true,
+              touchControls: true,
+              gyroControls: true,
+              minHeight: 200.00,
+              minWidth: 200.00,
+              scale: 1.00,
+              scaleMobile: 1.00,
+              color: 0xffffff,
+              color2: 0xc3bebc,
+              showLines: false
+            })
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="css/style.css">
-        
-        
+          setTimeout(() => { 
+            const main = document.querySelector('main')
+            main.style.opacity = 1 
+            main.style.filter = 'blur(0px)'
+            }, 1000)
+        })
+
+    </script>
     
 
 </head>
+
 <body>
-    <div class="profile">
-        <img src="img/simon.png" alt="Lucas" class="avatar">
+    <div id="vanta"></div>
+   <main>
+    <header>
+      <img src="img/simon.png" alt="Simon">
+      <h1>@lucasimonmendes</h1>
+    </header>
 
-        <h1>Lucas Simon</h1>
-        <h2>Web Developer</h2>
-
-    </div>
-
-    <ul class="social">
-       
-        <li>
-            <a href="https://github.com/lucasimonmendes"> <img src="img/github.svg" alt="github"></a>
-        </li>
-        <li>
-            <a href="https://www.linkedin.com/in/lucas-simon-0b697b108"> <img src="img/linkedin.svg" alt="linkedin"></a>
-        </li>
-        <li>
-            <a href="https://instagram.com/lucasimonmendes"> <img src="img/insta.svg" alt="instagram"></a>
-        </li>
-        <li>
-            <a href="https://wa.me/5515991533883?text=Ol%C3%A1%2C%20quero%20contratar%20seus%20servi%C3%A7os%20de%20desenvolvedor%21"> <img src="img/whatsapp.png" alt="whatsapp"></a>
-        </li>
+    <ul>
+      <li>
+        <a href="https://github.com/lucasimonmendes">
+          <img src="img/github.svg" alt="GitHub" width="20">
+          Github
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/lucas-simon-0b697b108">
+          <img src="img/linkedin.svg" alt="LinkedIn" width="20">
+          LinkedIn
+        </a>
+      </li>
+      <li>
+        <a href="https://instagram.com/lucasimonmendes">
+        <img src="img/insta.svg" alt="Insta" width="20">
+          Instagram
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          Meu Blog (Em breve)
+        </a>
+      </li>
     </ul>
+   </main>
+  </body>
 
-    <ul class="links-list">
-
-        <li>
-            <a href="https://wa.me/5515991533883?text=Ol%C3%A1%2C%20quero%20contratar%20seus%20servi%C3%A7os%20de%20desenvolvedor%21">
-               Veja meu Portfólio  
-                <span>Acesse já meu portfólio atualizado!</span>
-            </a>
-        </li>
-        <li>
-            <a href="https://bit.ly/linktreEMO">
-                O Simon
-                <span>Conheça um pouco do meu trabalho como músico e escritor!</span> 
-             </a>
-        </li>
-    </ul>
-</body>
 </html>
