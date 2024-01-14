@@ -1,3 +1,16 @@
+# MQN Linktree
+
+## Links
+- [Youtube](http://www.youtube.com/@melhorquenadapodcast)
+- [Spotify](https://podcasters.spotify.com/pod/show/melhorqnada) 
+- [Instagram](https://www.instagram.com/melhorqnada/) 
+- [Facebook](https://www.facebook.com/melhorqnadaa)
+- ["💬 Canal do Telegram"](https://t.me/melhorqnada)
+- [ "📷 Que tal um Mini Doc?? (EM BREVE)" ](#) 
+
+
+## Cores
+```
 :root{
     --color-primary: #9e9496 ;
     --color-primary-light: #323133  ;
@@ -20,3 +33,4 @@
 
 *******************/
 
+```

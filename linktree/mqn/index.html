@@ -5,66 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
-    <title>MELHORQNADA</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>MELHORQNADA - Links</title>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+          VANTA.GLOBE({
+            el: "#vanta",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x464545,
+            color2: 0xfcf3f3,
+            size: 0.90,
+            backgroundColor: 0x0
+          })
+
+        setTimeout(() => { 
+          const main = document.querySelector('main')
+          main.style.opacity = 1 
+          main.style.filter = 'blur(0px)'
+          }, 1000)
+       })
+
+    </script>
 
    
     
 
 </head>
+
 <body>
-    <div class="profile">
-        <img src="img/profile-pic.png" alt="melhorqnada logo" class="avatar">
+    <div id="vanta"></div>
+   <main>
+    <header>
+      <img src="img/profile-pic.png" alt="Simon">
+      <h1>@melhorqnada</h1>
+    </header>
 
-        <h1>melhorqnada</h1>
-        <h2>é melhor que nada, né?</h2>
-
-    </div>
-
-    <ul class="social">
-        <li>
-            <a href="http://www.youtube.com/@melhorquenadapodcast"> <img src="img/youtube.png" alt="Youtube"></a>
-        </li>
-        <li>
-            <a href="https://www.tiktok.com/@melhorqnada"> <img src="img/tiktok.png" alt="Instagram"></a>
-        </li>
-        <li>
-            <a href="https://podcasters.spotify.com/pod/show/melhorqnada"> <img src="img/spotify.png" alt="Spotify"></a>
-        </li>
-        <li>
-            <a href="https://www.instagram.com/melhorqnada/"> <img src="img/insta.svg" alt="Instagram"></a>
-        </li>
-        <li>
-            <a href="https://www.facebook.com/melhorqnadaa"> <img src="img/facebook.png" alt="Instagram"></a>
-        </li>
+    <ul>
+      <li>
+        <a href="https://t.me/melhorqnada">
+          💬 Canal do Telegram
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          📷 Que tal um Mini Doc?? (EM BREVE)
+          </a>
+      </li>
+      <li>
+        <a href="http://www.youtube.com/@melhorquenadapodcast">
+        <img src="img/youtube.png" alt="Youtube" width="20">
+          Youtube
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/melhorqnada">
+        <img src="img/insta.svg" alt="Instagram" width="20">
+          Instagram
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/melhorqnadaa">
+        <img src="img/facebook.png" alt="Facebook" width="20">
+         Facebook
+        </a>
+      </li>
     </ul>
-
-    <ul class="links-list">
-
-        <li>
-            <a href="https://t.me/melhorqnada">
-                💬 Canal do Telegram 
-               <span>Tenha acesso a conteúdos exclusivos e antecipados, entre no canal do Telegram!</span> 
-            </a>
-        </li>
-        <li>
-            <a href="https://podcasters.spotify.com/pod/show/melhorqnada">
-                🎙️ Ouça-nos no Spotify
-                <span>Novos episódios toda a semana!</span> 
-             </a>
-        </li>
-        <li>
-            <a href="#">
-                📷 Que tal um Mini Doc?? [EM BREVE]   
-                <span> Em breve, mini docs melhorqnada...👀</span>
-            </a>
-        </li>
-    </ul>
-</body>
+   </main>
+  </body>
 </html>
